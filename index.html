@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- 아이콘은 art-src/voyager-atelier-logo.png 에서 굽는다(optimize-assets.mjs).
+         마스터를 직접 걸지 말 것 — 330KB 짜리다. -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voyager Atelier</title>
+    <meta name="description" content="몬스터를 모아 키우고, 숲에서 재료를 캐고, 공방에서 장비를 만들어 50층 탑을 오르는 픽셀 RPG. 설치 없이 브라우저에서 바로 플레이할 수 있습니다." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Voyager Atelier" />
+    <meta property="og:description" content="몬스터를 모아 키우고, 숲에서 재료를 캐고, 공방에서 장비를 만들어 50층 탑을 오르는 픽셀 RPG." />
+    <meta property="og:image" content="/thumbnail.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- 폰트는 자체 호스팅한다. CDN 원본은 한자 6,777자를 포함해 1.2MB 인데
+         게임에는 한 글자도 안 나온다. scripts/subset-fonts.mjs 가 빌드 때
+         소스에 실제로 쓰인 글자만 뽑아 65KB 로 줄인다. @font-face 는 src/index.css. -->
+    <link rel="preload" href="/assets/fonts/Galmuri11.woff2" as="font" type="font/woff2" crossorigin>
+    <script type="module" crossorigin src="/assets/index-BOVZFbfE.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/react-Ca2hloju.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-Cv5ViGJs.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
