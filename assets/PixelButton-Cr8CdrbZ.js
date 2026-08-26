@@ -1,3 +1,0 @@
-import{j as o}from"./index-DG-zsb_O.js";const s={primary:"border-ember-500 bg-ember-600 text-cream-100 hover:brightness-110",ghost:"border-earth-500/70 bg-shadow-900/70 text-sand-300 hover:border-earth-400 hover:text-sand-200",danger:"border-ember-700 bg-ember-700/25 text-ember-500 hover:bg-ember-700/40",info:"border-mist-500 bg-mist-500/20 text-mist-300 hover:bg-mist-500/35",nature:"border-moss-500 bg-moss-500/25 text-sand-200 hover:bg-moss-500/40"};function a({variant:e="ghost",className:r="",...t}){return o.jsx("button",{...t,className:`rounded-lg border-2 px-3 py-1.5 text-pixel-sm font-bold transition
-        active:translate-y-px disabled:cursor-not-allowed disabled:opacity-40
-        ${s[e]} ${r}`})}export{a as P};
